@@ -145,7 +145,7 @@ h3 {
 p {
     display: block;
     font-size: 16pt;
-    color: red;
+    color: black;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -178,7 +178,7 @@ footer img {
     align-content: center;
     margin-left: 5pt;
     margin-right: 5pt;
-    height: 60px;
+    height: 50px;
     padding: 2px;
     border-radius: 3px;
 }
