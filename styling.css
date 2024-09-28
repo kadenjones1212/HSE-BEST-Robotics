@@ -99,7 +99,6 @@ h2::after {
 
 h3 {
     display: block;
-    text-align: left;
     font-size: 25pt;
     margin-left: auto;
     margin-right: auto;
@@ -147,8 +146,8 @@ h3 {
 p {
     display: block;
     font-size: 16pt;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 main a {
