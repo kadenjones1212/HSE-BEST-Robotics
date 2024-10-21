@@ -51,7 +51,7 @@ nav a {
 
 .dropdown-content a {
     padding: 10px 15px; /* Padding for dropdown links */
-    text-align: center; /* Align text to the left */
+    align-self: center; /* Align text to the left */
 }
 
 .dropdown:hover .dropdown-content {
@@ -76,7 +76,7 @@ header {
 }
 
 header a {
-    color: red;
+    color: white;
     text-decoration: none;
     text-shadow: 2px 2px black;
     font-size: 25px;
