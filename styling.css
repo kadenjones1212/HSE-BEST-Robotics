@@ -177,6 +177,7 @@ footer {
 footer img {
     display: block;
     align-content: center;
+    align-self: center;
     margin-left: 5pt;
     margin-right: 5pt;
     height: 50px;
