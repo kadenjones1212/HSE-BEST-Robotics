@@ -47,11 +47,12 @@ nav a {
     background-color: black; /* Background color for dropdown */
     min-width: 160px; /* Minimum width for the dropdown */
     z-index: 1; /* Ensure it appears above other content */
+    text-align: center;
 }
 
 .dropdown-content a {
     padding: 10px 15px; /* Padding for dropdown links */
-    align-self: center; /* Align text to the left */
+    text-align: center; /* Align text to the left */
 }
 
 .dropdown:hover .dropdown-content {
