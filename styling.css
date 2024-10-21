@@ -20,13 +20,13 @@ img {
 }
 
 header a {
-    color: red;
+    color: white;
     text-decoration: none;
     text-shadow: 2px 2px black;
     font-size: 25px;
     transition: color 0.5s; /* Fixed syntax for the transition */
     
-    padding: 5px 50px; /* Simplified padding shorthand */
+    padding: 5px 5px; /* Simplified padding shorthand */
     margin: 0 10px; /* Added left and right margin for spacing between links */
 
     display: inline-block; /* Change to inline-block to align horizontally */
