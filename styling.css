@@ -19,26 +19,6 @@ img {
     margin: auto;
 }
 
-nav a, header a {
-    color: white;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
-    font-size: 25px;
-    transition: color 0.5s; /* Fixed syntax for the transition */
-    
-    padding: 5px 10px; /* Adjust vertical and horizontal padding */
-    margin: 0; /* Remove margin for more control over spacing */
-
-    display: flex; /* Change to flex for better alignment */
-    justify-content: space-between; /* Center content within each link */
-    align-items: center; /* Align items vertically in the center */
-    flex: 1; /* Allow each link to grow and take up equal space */
-
-    background-color: black;
-    background-size: 100%;
-    border-radius: 5px; /* Optional: add border radius for smoother edges */
-}
-
 
 header a:hover {
     color:#0ff;
@@ -47,12 +27,29 @@ header a:hover {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* or space-around for more spacing */
     width: 100%;
-    flex-direction: row; /* Ensures that children are laid out horizontally */
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: black;
+    padding: 10px 20px; /* Optional: add some padding to the header */
 }
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+    transition: color 0.5s;
+
+    padding: 5px; /* Set vertical padding */
+    margin: 0; /* Remove margin for better control */
+
+    display: block; /* Maintain block display for better interaction */
+    text-align: center; /* Center text within the links */
+    flex: 1; /* Allow each link to grow and take up equal space */
+}
+
 header h1 {
     margin-top: 0px;
     margin-bottom: 0px;
