@@ -30,7 +30,7 @@ nav a, header a {
     margin: 0; /* Remove margin for more control over spacing */
 
     display: flex; /* Change to flex for better alignment */
-    justify-content: center; /* Center content within each link */
+    justify-content: space-between; /* Center content within each link */
     align-items: center; /* Align items vertically in the center */
     flex: 1; /* Allow each link to grow and take up equal space */
 
