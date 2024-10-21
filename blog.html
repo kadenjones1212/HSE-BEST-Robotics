@@ -125,12 +125,17 @@ for sponsorship and developed a sponsorship form and assigned students to reach 
 <!---------------------------------------------------------------------------------->
 <!---------------------Make Blog Changes Above this comment------------------------->
     </div>
-    <footer>
-        <a href="https://bcwsupplies.com"><img src="media/companyLogos/BCW-LASERWELD.png"></a>
-        <a href="https://ciocenter.com"><img src="media/companyLogos/CIO_Central_Indiana_Orthopedics.png"></a>
-        <a href="https://gaylor.com"><img src="media/companyLogos/Gaylor_Electric.png"></a>
-        <a href="https://www.jerseymikes.com"><img src="media/companyLogos/Jersey_Mike's.svg"></a>
-        <a href="https://redimond.com"><img src="media/companyLogos/DimondLogoAbreviatedColor.png"></a>
-      </footer>
+    <div id="footer-placeholder"></div>
+    <script>
+       // Fetch the footer and insert it into the placeholder
+       
+
+       fetch('footer.html')
+           .then(response => response.text())
+           .then(data => {
+               document.getElementById('footer-placeholder').innerHTML = data;
+           })
+           .catch(error => console.error('Error loading footer:', error));
+   </script>
 </body>
 </html>
