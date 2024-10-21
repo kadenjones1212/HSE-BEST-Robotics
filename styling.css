@@ -28,12 +28,7 @@ nav {
     padding: 10px 0; /* Add padding for spacing */
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px; /* Padding for links */
-    transition: background-color 0.3s; /* Smooth transition for background color */
-}
+
 
 .dropdown {
     position: relative; /* Positioning context for the dropdown */
