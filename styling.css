@@ -19,7 +19,7 @@ img {
     margin: auto;
 }
 
-header a {
+nav a {
     color: white;
     text-decoration: none;
     text-shadow: 2px 2px black;
@@ -79,17 +79,6 @@ nav {
     justify-content: center; /* Center items horizontally */
     background-color: black; /* Background color for the navbar */
     padding: 10px 0; /* Add padding for spacing */
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px; /* Padding for links */
-    transition: background-color 0.3s; /* Smooth transition for background color */
-}
-
-nav a:hover {
-    background-color: gray; /* Change background color on hover */
 }
 
 .dropdown {
