@@ -30,7 +30,6 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px; /* Padding for links */
     transition: background-color 0.3s; /* Smooth transition for background color */
 }
 
@@ -52,7 +51,7 @@ nav a {
 
 .dropdown-content a {
     padding: 10px 15px; /* Padding for dropdown links */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
 }
 
 .dropdown:hover .dropdown-content {
