@@ -26,16 +26,19 @@ header a {
     font-size: 25px;
     transition: color 0.5s; /* Fixed syntax for the transition */
     
-    padding: 5px 5px; /* Simplified padding shorthand */
-    margin: 0 10px; /* Added left and right margin for spacing between links */
+    padding: 5px 10px; /* Adjust vertical and horizontal padding */
+    margin: 0; /* Remove margin for more control over spacing */
 
-    display: inline-block; /* Change to inline-block to align horizontally */
-    text-align: center; /* Ensures text is centered within the button */
+    display: flex; /* Change to flex for better alignment */
+    justify-content: center; /* Center content within each link */
+    align-items: center; /* Align items vertically in the center */
+    flex: 1; /* Allow each link to grow and take up equal space */
 
     background-color: black;
     background-size: 100%;
     border-radius: 5px; /* Optional: add border radius for smoother edges */
 }
+
 
 header a:hover {
     color: gray; /* Optional hover effect to change link color */
