@@ -72,6 +72,52 @@ header h1 {
     text-shadow: 3px 3px 8px #000;
 }
 
+/* Dropdown Navigation Styles */
+nav {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    background-color: black; /* Background color for the navbar */
+    padding: 10px 0; /* Add padding for spacing */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for links */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+nav a:hover {
+    background-color: gray; /* Change background color on hover */
+}
+
+.dropdown {
+    position: relative; /* Positioning context for the dropdown */
+}
+
+.dropbtn {
+    background-color: black; /* Same background color for dropdown button */
+}
+
+.dropdown-content {
+    display: none; /* Initially hide the dropdown content */
+    position: absolute; /* Position dropdown content */
+    background-color: black; /* Background color for dropdown */
+    min-width: 160px; /* Minimum width for the dropdown */
+    z-index: 1; /* Ensure it appears above other content */
+}
+
+.dropdown-content a {
+    padding: 10px 15px; /* Padding for dropdown links */
+    text-align: left; /* Align text to the left */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown content on hover */
+}
+
+
 p, a, h3, h4, h5, h6 {
     text-align: left;
 }
