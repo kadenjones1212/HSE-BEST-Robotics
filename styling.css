@@ -19,7 +19,7 @@ img {
     margin: auto;
 }
 
-nav a {
+nav a, header a {
     color: white;
     text-decoration: none;
     text-shadow: 2px 2px black;
@@ -37,11 +37,6 @@ nav a {
     background-color: black;
     background-size: 100%;
     border-radius: 5px; /* Optional: add border radius for smoother edges */
-}
-
-
-header a:hover {
-    color: gray; /* Optional hover effect to change link color */
 }
 
 
