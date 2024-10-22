@@ -27,13 +27,6 @@ nav {
     z-index: 2;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
-    /* Smooth transition for background color */
-}
-
 .dropdown {
     position: relative; /* Positioning context for the dropdown */
 }
@@ -84,10 +77,11 @@ header a {
     text-decoration: none;
     text-shadow: 0px 0px 8px #00f;
     font-size: 25px;
-    transition: color 1s;
+    animation: 3s;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
    
     margin-left: 0px;
     margin-right: 0px;
