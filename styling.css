@@ -76,7 +76,7 @@ header {
 }
 
 header a {
-    color: red;
+    color: grey;
     text-decoration: none;
     text-shadow: 2px 2px black;
     font-size: 25px;
