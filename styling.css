@@ -21,7 +21,7 @@ img {
 
 /* Dropdown Navigation Styles*/ 
 nav {
-    display: flex; /* Use flexbox for horizontal alignment */
+    display: block; /* Use flexbox for horizontal alignment */
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Center items horizontally */
     z-index: 2; 
