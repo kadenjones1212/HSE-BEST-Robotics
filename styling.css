@@ -73,6 +73,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: black;
+    z-index: 1; 
     padding: none; /* Optional: add some padding to the header */
 }
 
@@ -129,7 +130,7 @@ header h1 {
     box-shadow: 10px 0px 10px #0ff;
     border-radius: 5px;
     min-width: 100%; /* Minimum width for the dropdown */
-    z-index: 1; /* Ensure it appears above other content */
+    z-index: 0.5; /* Ensure it appears above other content */
 }
 
 
