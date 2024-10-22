@@ -110,7 +110,7 @@ header h1 {
     text-align: left;
     padding-left: 60px;
     background-size: 100%;
-    text-shadow: 0px 0px 8px #f0f;
+    text-shadow: 0px 0px 8px blue;
 }
 
 /* Dropdown Navigation Styles */
