@@ -72,15 +72,15 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: black;
-    padding: 10px 20px; /* Optional: add some padding to the header */
+    padding: none; /* Optional: add some padding to the header */
 }
 
 header a {
-    color: grey;
+    color: white;
     text-decoration: none;
     text-shadow: 2px 2px black;
     font-size: 25px;
-    transition: color 0.5s;
+    transition: color 1s;
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
