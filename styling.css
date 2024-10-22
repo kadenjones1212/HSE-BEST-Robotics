@@ -124,13 +124,14 @@ header h1 {
 .dropdown-content {
     display: none; /* Initially hide the dropdown content */
     position: center; /* Position dropdown content */
-    background-color: black; /* Background color for dropdown */
+    background-color: grey; /* Background color for dropdown */
+    border-radius: 5px;
     min-width: 100%; /* Minimum width for the dropdown */
     z-index: 1; /* Ensure it appears above other content */
 }
 
 .dropdown-content a {
-    padding: 10px 150px;;
+    padding: 10px;
     text-align: center; /* Align text to the left */
 }
 
