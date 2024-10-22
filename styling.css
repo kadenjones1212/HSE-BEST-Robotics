@@ -81,7 +81,9 @@ header a {
     text-shadow: 2px 2px black;
     font-size: 25px;
     transition: color 0.5s;
-
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     padding: 0; /* Set vertical padding */
     margin: 0; /* Remove margin for better control */
 
