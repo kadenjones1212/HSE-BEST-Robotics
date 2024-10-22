@@ -126,7 +126,7 @@ header h1 {
     display: none; /* Initially hide the dropdown content */
     position: center; /* Position dropdown content */
     background-color: black; /* Background color for dropdown */
-    box-shadow: -8px 8px 8px #0ff, 8px 8px 8px #0ff, 0 8px 8px #0ff; /* Shadow on left, right, and bottom */
+    box-shadow: 10px 0 5px -2px #0ff;/* Shadow on left, right, and bottom */
     border-radius: 5px;
     min-width: 100%; /* Minimum width for the dropdown */
     z-index: 1; /* Ensure it appears above other content */
