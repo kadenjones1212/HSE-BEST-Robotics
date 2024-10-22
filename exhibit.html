@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="script.js"></script><head>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="media/ROARR (4).png">
+    <title>Meet the Robot</title>
+</head>
+<body>
+  <header>   
+    <a id="header-placeholder"></a>
+    <h1 style="background: rgba(0, 0, 0, .5) url(media/BackgroundImages/Moon.jpg); background-size: 100%; ">The Exhibit</h1>
+    </header>
+<h2>Under Development</h2>
+<p>This page is still under development. Check back later for updates!</p>
+<p style="margin-bottom: 2000px"></p>
+
+<div id="footer-placeholder"></div>
+<script>
+  fetch('footer.html')
+   .then(response => response.text())
+   .then(data => {
+       document.getElementById('footer-placeholder').innerHTML = data;
+   })
+   .catch(error => console.error('Error loading footer:', error));
+
+  fetch('header.html')
+   .then(response => response.text())
+   .then(data => {
+       document.getElementById('header-placeholder').innerHTML = data;
+   })
+   .catch(error => console.error('Error loading header:', error));
+   </script>
+</body>
+
+</html>
