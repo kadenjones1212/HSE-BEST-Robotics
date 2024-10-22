@@ -78,7 +78,7 @@ header {
 header a {
     color: white;
     text-decoration: none;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px #0ff;
     font-size: 25px;
     transition: color 1s;
     padding-left: 0px;
