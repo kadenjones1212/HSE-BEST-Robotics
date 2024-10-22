@@ -96,15 +96,17 @@ header a {
 }
 
 header h1 {
+    background-size: 100%; 
+    padding-top: 150px; 
+    padding-bottom: 150px; 
+    background-blend-mode: darken; 
+    color: white;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 80px;
     width: 100%;
     text-align: left;
     padding-left: 60px;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    color: white;
     background-size: 100%;
     text-shadow: 3px 3px 8px #000;
 }
