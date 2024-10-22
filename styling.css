@@ -25,13 +25,14 @@ nav {
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Center items horizontally */
     z-index: 2; 
+    box-shadow: 0px 0px 10px cyan; 
 }
 
 nav a {
     color: white;
     text-decoration: none;
     transition: 0.3s;
-    box-shadow: 0px 0px 10px cyan; /* Smooth transition for background color */
+    /* Smooth transition for background color */
 }
 
 .dropdown {
