@@ -76,13 +76,13 @@ header {
 }
 
 header a {
-    color: white;
+    color: red;
     text-decoration: none;
     text-shadow: 2px 2px black;
     font-size: 25px;
     transition: color 0.5s;
 
-    padding: 5px; /* Set vertical padding */
+    padding: 0; /* Set vertical padding */
     margin: 0; /* Remove margin for better control */
 
     display: block; /* Maintain block display for better interaction */
