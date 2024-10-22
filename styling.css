@@ -30,7 +30,8 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    transition: 0.3s; /* Smooth transition for background color */
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px cyan; /* Smooth transition for background color */
 }
 
 .dropdown {
