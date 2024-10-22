@@ -123,7 +123,7 @@ header h1 {
 
 .dropdown-content {
     display: none; /* Initially hide the dropdown content */
-    position: absolute; /* Position dropdown content */
+    position: center; /* Position dropdown content */
     background-color: black; /* Background color for dropdown */
     min-width: 100%; /* Minimum width for the dropdown */
     z-index: 1; /* Ensure it appears above other content */
