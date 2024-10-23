@@ -201,7 +201,7 @@ h3::after {
     display: block;
     margin: auto;
     padding: 30px;
-    drop-shadow: 2px 2px black;
+    filter: drop-shadow(30px 10px 4px black);
 
 }
 
