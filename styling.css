@@ -281,7 +281,7 @@ main {
 
 footer {
     width: 100%;
-    padding: 10px;
+    padding: 6px;
     text-align: center;
     background: black;
     bottom: 0;
@@ -291,9 +291,9 @@ footer img {
     display: block;
     align-content: center;
     align-self: center;
-    margin-left: 5pt;
-    margin-right: 5pt;
-    height: 30px;
+    margin-left: 3pt;
+    margin-right: 3pt;
+    height: 40px;
     padding: 2px;
     border-radius: 3px;
 }
