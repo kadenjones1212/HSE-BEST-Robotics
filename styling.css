@@ -179,7 +179,6 @@ h3 {
 }
 h3::after {
     content: "";
-    margin-right: auto;
     display: block;
     border-radius: 15px;
     align-items: center;
