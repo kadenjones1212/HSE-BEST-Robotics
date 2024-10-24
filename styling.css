@@ -62,7 +62,7 @@ header a:hover {
 }
 
 header {
-    display: block;
+    display: flex;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,8 +77,8 @@ header a {
     text-shadow: 0px 0px 10px #00f;
     font-size: 25px;
     animation: 3s;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
    
