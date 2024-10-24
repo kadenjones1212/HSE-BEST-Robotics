@@ -94,10 +94,12 @@ header a {
     text-align: center; /* Center text within the links */
     flex: 1; /* Allow each link to grow and take up equal space */
 }
+/*
 header a:active{
     text-color: blue;
     
     }
+    */
 
 header h1 {
     background-size: 100%; 
@@ -112,9 +114,6 @@ header h1 {
     font-size: 80px;
     width: 100%;
     text-align: center;
-    /*
-    padding-left: 60px;
-    */
     background-size: 100%;
     text-shadow: 0px 0px 8px blue; 
     transition: all 0.3s ease; /* Smooth transition for hover */
