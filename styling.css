@@ -63,7 +63,7 @@ header a:hover {
 
 header {
     display: block;
-    align-items: left;
+    align-items: right;
     justify-content: space-between; /* or space-around for more spacing */
     width: 100%;
     flex-direction: row;
