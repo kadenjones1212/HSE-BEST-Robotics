@@ -21,7 +21,8 @@ img {
 
 /* Dropdown Navigation Styles*/ 
 nav {
-  float: left;
+  display:inline-block;
+    float: left;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
