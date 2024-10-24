@@ -77,17 +77,9 @@ header a {
     text-shadow: 0px 0px 10px #00f;
     font-size: 25px;
     animation: 3s;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-   
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    padding: 5px;
     margin: 0; /* Remove margin for better control */
-    float: right;
-    display: flex; /* Maintain block display for better interaction */
+    display: flex;
     text-align: center; /* Center text within the links */
     flex: 1; /* Allow each link to grow and take up equal space */
 }
