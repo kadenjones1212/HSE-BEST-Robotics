@@ -214,6 +214,8 @@ display: flex;
 align-items: center;
 margin-left: 30px;
 margin-right: 0;
+text-align: justify;
+text-justify: inter-word;
 
 }
 
