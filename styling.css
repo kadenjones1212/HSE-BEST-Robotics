@@ -161,7 +161,8 @@ header h1:hover {
 
 
 p, a, h3, h4, h5, h6 {
-    text-align: left;
+    text-align: justify;
+text-justify: inter-word;
 }
 
 h2 {
@@ -214,8 +215,6 @@ display: flex;
 align-items: center;
 margin-left: 30px;
 margin-right: 0;
-text-align: justify;
-text-justify: inter-word;
 
 }
 
