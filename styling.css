@@ -22,7 +22,7 @@ img {
 /* Dropdown Navigation Styles*/ 
 nav {
   float: left;
-  align-self: center;
+  text-align: center;
   padding-left: 10px;
   padding-right: 10px;
 }
