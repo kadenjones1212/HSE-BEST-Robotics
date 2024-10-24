@@ -22,10 +22,12 @@ img {
 /* Dropdown Navigation Styles*/ 
 nav {
     display: flex; /* Use flexbox for horizontal alignment */
-    align-items: center; /* Center items vertically */
-    padding-left: 5px;
-    padding-right: 5px;
+    align-items: center;
+    position: relative;
+    padding-left: 5px; /* Space between the nav and the left edge */
+    padding-right: 5px; /* Right padding to keep space on the right */
     z-index: 2;
+    justify-content: space-between; /* Space out the items evenly */
 }
 
 .dropdown {
