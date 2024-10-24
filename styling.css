@@ -26,7 +26,7 @@ align-items: center; /* Center items vertically */
 justify-content: center; /* Center items horizontally */
 z-index: 2;
 }
-a.active{
+a:active{
 text-color: blue;
 
 }
