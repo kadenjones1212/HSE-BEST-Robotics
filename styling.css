@@ -19,13 +19,6 @@ img {
     margin: auto;
 }
 
-/* Dropdown Navigation Styles*/ 
-nav{
-display: flex; /* Use flexbox for horizontal alignment */
-align-items: center; /* Center items vertically */
-justify-content: center; /* Center items horizontally */
-z-index: 2;
-}
 
 
 .dropdown {
@@ -54,6 +47,13 @@ z-index: 2;
     display: block; /* Show dropdown content on hover */
 }
 
+nav{
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    z-index: 2;
+    }
+    
 
 header a:hover {
     color:#0ff;
@@ -69,6 +69,7 @@ header {
     background-color: black;
     z-index: 2; 
     padding: none;
+    float: center;
 }
 
 header a {
@@ -80,9 +81,9 @@ header a {
     padding: 5px;
     margin: 0; 
     display: flex; 
-    text-align: center; 
-    
+    text-align: right; 
     flex: 1;
+    justify-content: right;
 }
 
 header a:active{
