@@ -287,11 +287,11 @@ main {
 
 footer {
     width: 100%;
-    padding: 6px;
+    padding: 100vw/4;
     text-align: center;
     background: black;
     bottom: 0;
-    float: center;
+   justify-content: center;
     display: flex;
 }
 footer img {
