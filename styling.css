@@ -26,6 +26,10 @@ align-items: center; /* Center items vertically */
 justify-content: center; /* Center items horizontally */
 z-index: 2;
 }
+nav a.active{
+text-color: blue;
+
+}
 
 .dropdown {
     position: relative; /* Positioning context for the dropdown */
