@@ -23,8 +23,8 @@ img {
 nav {
     display: flex; /* Use flexbox for horizontal alignment */
     align-items: center; /* Center items vertically */
-    padding-left: 100vw/5;
-    padding-right: 100vw/5;
+    padding-left: 5px;
+    padding-right: 5px;
     z-index: 2;
 }
 
