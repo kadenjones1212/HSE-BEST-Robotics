@@ -74,7 +74,6 @@ header {
 }
 
 header a {
-    float: right
     color: white;
     text-decoration: none;
     text-shadow: 0px 0px 10px #00f;
