@@ -24,7 +24,7 @@ nav {
     display: flex; /* Use flexbox for horizontal alignment */
     align-items: center; /* Center items vertically */
     padding-left: 100vw/5;
-    padding-right: 100vw/5; /* Space items evenly */
+    padding-right: 100vw/5;
     z-index: 2;
 }
 
