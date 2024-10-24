@@ -79,7 +79,7 @@ header a {
     text-shadow: 0px 0px 10px #00f;
     font-size: 20px;
     animation: 3s;
-    padding: 7px;
+    padding: 0px 10px 0px 10px;
     margin: 0; 
     display: flex; 
     text-align: center; 
