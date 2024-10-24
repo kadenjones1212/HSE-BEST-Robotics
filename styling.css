@@ -20,7 +20,12 @@ img {
 }
 
 /* Dropdown Navigation Styles*/ 
-
+nav{
+display: flex; /* Use flexbox for horizontal alignment */
+align-items: center; /* Center items vertically */
+justify-content: center; /* Center items horizontally */
+z-index: 2;
+}
 
 
 .dropdown {
@@ -58,7 +63,7 @@ header a:hover {
 
 header {
     display: block;
-    align-items: center;
+    align-items: left;
     justify-content: space-between; /* or space-around for more spacing */
     width: 100%;
     flex-direction: row;
