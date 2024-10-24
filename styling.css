@@ -27,7 +27,7 @@ nav {
     padding-left: 5px; /* Space between the nav and the left edge */
     padding-right: 5px; /* Right padding to keep space on the right */
     z-index: 2;
-    justify-content: space-between; /* Space out the items evenly */
+    justify-content: center; /* Space out the items evenly */
 }
 
 .dropdown {
