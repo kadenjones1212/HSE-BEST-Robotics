@@ -210,7 +210,12 @@ h3::after {
     box-shadow: 0px 0px 5px blue;
 }
 
+.sidebyside {
 
+    vertical-align: middle;
+
+
+}
 
 
 
