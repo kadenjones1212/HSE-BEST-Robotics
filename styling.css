@@ -210,9 +210,9 @@ h3::after {
     box-shadow: 0px 0px 5px blue;
 }
 
-.sidebyside img{
-display: flexbox;
-    vertical-align: middle;
+.sidebyside{
+display: flex;
+align-items: center;
 
 
 }
