@@ -87,10 +87,10 @@ header a {
     justify-content: right;
 }
 
-header a:active{
-    text-color: blue;
+a:active{
+    color: blue;
     
-    }
+}
     
 
 header h1 {
