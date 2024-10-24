@@ -213,7 +213,7 @@ h3::after {
 .sidebyside{
 display: flex;
 align-items: center;
-
+margin-left: 20px;
 
 }
 
