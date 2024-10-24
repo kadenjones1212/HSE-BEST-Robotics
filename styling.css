@@ -81,7 +81,7 @@ header a {
     padding: 5px;
     margin: 0; 
     display: flex; 
-    text-align: right; 
+    text-align: center; 
     flex: 1;
     justify-content: right;
 }
