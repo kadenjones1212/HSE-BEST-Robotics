@@ -280,6 +280,8 @@ p {
 footer {
     width: 100%;
     padding: 100vw/4;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
     background: black;
     bottom: 0;
