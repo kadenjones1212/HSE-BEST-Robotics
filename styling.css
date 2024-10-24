@@ -20,12 +20,11 @@ img {
 }
 
 /* Dropdown Navigation Styles*/ 
-nav {
-  display:flex;
-  justify-content: center;
-  align-self: center;
-  padding-left: 10px;
-  padding-right: 10px;
+nav{
+display: flex; /* Use flexbox for horizontal alignment */
+align-items: center; /* Center items vertically */
+justify-content: space-between; /* Center items horizontally */
+z-index: 2;
 }
 
 .dropdown {
