@@ -168,7 +168,6 @@ h2 {
     display: block;
     text-align: left;
     font-size: 40pt;
-    padding-left: 30px;
     padding-top: 15pt;
     margin-left: 50px;
     padding-bottom: 5pt;
@@ -180,9 +179,8 @@ h3 {
     display: block;
     text-align: left;
     font-size: 30pt;
-    padding-left: 0px;
     padding-top: 15pt;
-    margin-left: 50px;
+    margin-left: 60px;
     padding-bottom: 5pt;
     outline: none;
 
