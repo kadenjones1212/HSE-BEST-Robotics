@@ -179,7 +179,8 @@ h2 {
 h3 {
     padding-top: 30px;
     font-size: 30pt;
-    text-align: center;
+    text-align: left;
+    padding-left: 40px;
    
 }
 /*
