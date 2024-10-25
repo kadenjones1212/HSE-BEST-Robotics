@@ -177,10 +177,15 @@ h2 {
 
 
 h3 {
-    padding-top: 30px;
-    font-size: 30pt;
+    display: block;
     text-align: left;
-    padding-left: 40px;
+    font-size: 30pt;
+    padding-left: 0px;
+    padding-top: 15pt;
+    margin-left: 50px;
+    padding-bottom: 5pt;
+    outline: none;
+
    
 }
 /*
