@@ -74,8 +74,6 @@ header a{
     align-items: center;
     z-index: 3;
 }
-header a:link {}
-header a:visited {}
 header a:hover {
     color: #0ff;
     animation-duration: 3s;
