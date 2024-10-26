@@ -196,6 +196,9 @@ h4::after {
     border-radius: 5px;
     display: inline-block;
     font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5);
 }
 
 .profile, .post-text-box {
