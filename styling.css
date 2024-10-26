@@ -195,6 +195,7 @@ h4::after {
     padding: 5px 10px;
     border-radius: 5px;
     display: inline-block;
+    align-content: center;
     font-weight: bold;
     text-align: center;
     margin-top: 5px;
