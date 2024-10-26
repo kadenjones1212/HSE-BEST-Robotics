@@ -188,7 +188,8 @@ h4::after {
 .sidebyside {
     display: flex;
     align-items: top;
-    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .profile, .post-text-box {
