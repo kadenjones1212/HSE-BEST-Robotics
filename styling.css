@@ -74,10 +74,10 @@ nav a {
     font-size: 20px;
     animation: 3s;
     padding: 5px;
-
     display: flex;
     text-align: center;
     justify-content: center;
+    float: center;
 }
 header a:link {}
 header a:visited {}
