@@ -198,7 +198,7 @@ h4::after {
     align-self: center;
     font-weight: bold;
     text-align: center;
-    padding-top: 5px;
+    margin-top: 10px;
     margin:auto;
     box-shadow: 0px 0px 5px blue;
 }
