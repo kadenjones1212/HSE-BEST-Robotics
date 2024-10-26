@@ -216,7 +216,7 @@ h4::after {
 .sponsor img {
     display: block;
     margin: auto;
-    padding: 30px;
+    padding-top:10px;
     height: auto;
     max-width: calc(100vw / 2);
     max-height:150;
