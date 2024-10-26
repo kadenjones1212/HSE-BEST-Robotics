@@ -71,7 +71,8 @@ header a{
     animation: 3s;
     padding: 0px 8px 0px 8px;
     display: flex;
-    text-align: right;
+    align-items: center;
+    float: right;
 }
 header a:link {}
 header a:visited {}
