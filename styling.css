@@ -1,7 +1,7 @@
 html {
     overflow-x: hidden;
 }
-p,a{
+p{
     text-align: justify;
     text-justify: inter-word;
 }
