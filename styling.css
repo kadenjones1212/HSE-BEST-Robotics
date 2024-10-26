@@ -77,7 +77,6 @@ header a{
     display: flex;
     text-align: center;
     justify-content: right;
-    float: center;
 }
 header a:link {}
 header a:visited {}
