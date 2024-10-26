@@ -164,11 +164,13 @@ h3 {
     outline: none;
 }
 
-.contact {
-    display: flex;
+#contact {
+    display: block;
     font-size: 25pt;
     color: blue;
     text-decoration: none;
+    align-content: center;
+
     padding: 15px;
 }
 
