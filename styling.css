@@ -213,7 +213,7 @@ h4::after {
     margin: auto;
     padding: 30px;
     width: calc(100vw / 2);
-    max-height: 150;
+    max-height: 150px;
 }
 
 .people img {
