@@ -50,11 +50,7 @@ img {
     display: block;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    z-index: 2;
-}
+
 
 header {
     display: flex;
