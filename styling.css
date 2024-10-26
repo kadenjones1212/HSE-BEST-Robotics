@@ -189,6 +189,14 @@ h4::after {
     margin-right: 10%;
     
 }
+#role {
+    background-color: royalblue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
 
 .profile, .post-text-box {
     flex: 70%;
