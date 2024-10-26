@@ -186,8 +186,8 @@ h3 {
     padding-bottom: 5pt;
     outline: none;
 
-   #contact {
-    display: block;
+   .contact {
+    display: flex;
     font-size: 25pt;
     color: blue;
     text-decoration: none;
