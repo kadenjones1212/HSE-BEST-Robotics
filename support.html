@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <link rel="stylesheet" href="styling.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,60 +12,65 @@
   <header>   
     <a id="header-placeholder"></a>
     <h1 style="background: rgba(0, 0, 0, .5) url('media/BackgroundImages/Moonbase.jpg'); background-size: cover; background-position: center; height: calc(100vw / 8); color: white; display: flex; align-items: center; justify-content: center; margin: 0;">  
-  Support The Team
+      Support The Team
     </h1>
-    </header>
-    <div class="sponsor" style="background: linear-gradient(to right, #cfcdff, #dce8ff, #a0b0ff);">
-      <h2>Sponsors</h2>
-      <h3>Platinum Level</h3>
-  
-      <sponsor>
-        <img src="media/companyLogos/BCW-LASERWELD.png" height="150" alt="BCW-LASERWELD" id="sponsor">
-        <img src="media/companyLogos/mann properties logo.png" height="150" alt="Mann Properties" id="sponsor">
-        <img src="media/companyLogos/PrimroseSchools.svg" height="150" alt="Primrose Schools" id="sponsor">
-        <img src="media/companyLogos/DimondLogoAbreviatedColor.png" height="150" alt="Dimond" id="sponsor">
-        
-  </sponsor>
+  </header>
+
+  <div class="sponsor" style="background: linear-gradient(to right, #cfcdff, #dce8ff, #a0b0ff);">
+    <h2>Sponsors</h2>
+    <h3>Platinum Level</h3>
+    <sponsor>
+      <img src="media/companyLogos/BCW-LASERWELD.png" height="150" alt="BCW-LASERWELD" id="sponsor">
+      <img src="media/companyLogos/mann properties logo.png" height="150" alt="Mann Properties" id="sponsor">
+      <img src="media/companyLogos/PrimroseSchools.svg" height="150" alt="Primrose Schools" id="sponsor">
+      <img src="media/companyLogos/DimondLogoAbreviatedColor.png" height="150" alt="Dimond" id="sponsor">
+    </sponsor>
   </div>
 
   <div class="sponsor" style="background: linear-gradient(to right, #ffda73, #ffeb8c, #d4af37);">
-
     <h3>Gold Level</h3>
-
     <sponsor>
       <img src="media/companyLogos/Gaylor_Electric.png" height="150" id="sponsor">
       <img src="media/companyLogos/Leo's_Market_and_Eatery.png" height="150" id="sponsor">
       <img src="media/companyLogos/Millennium Sounds Logo Primary-01.png" height="150" id="sponsor">
-      
-</sponsor>
-</div>
+    </sponsor>
+  </div>
 
-<div class="sponsor" style="background: linear-gradient(to right, #c0c0c0, #d3d3d3, #a9a9a9);">
-  <h3>Silver Level</h3>
-  <sponsor>
-    <img src="media/companyLogos/Engel and Volkers.png" height="150" alt="Engel and Volkers" id="sponsor">
-    <img src="media/companyLogos/Citizens State Bank.png" height="150" alt="Citizen State Bank" id="sponsor">
-    <img src="media/companyLogos/Ale Emporium.svg" height="150" alt="Ale Emporium" id="sponsor">
-    <img src="media/companyLogos/CSO Architects.png" height="150" alt="CSO Architects" id="sponsor">
-    <img src="media/companyLogos/Holy Ground Automotive.png" height="150" alt="Holy Ground Automotive" id="sponsor">
-    <div style="text-align: center;">Holy Ground Automotive</div>
-  </sponsor>
-</div>
+  <div class="sponsor" style="background: linear-gradient(to right, #c0c0c0, #d3d3d3, #a9a9a9);">
+    <h3>Silver Level</h3>
+    <sponsor>
+      <img src="media/companyLogos/Engel and Volkers.png" height="150" alt="Engel and Volkers" id="sponsor">
+      <img src="media/companyLogos/Citizens State Bank.png" height="150" alt="Citizen State Bank" id="sponsor">
+      <img src="media/companyLogos/Ale Emporium.svg" height="150" alt="Ale Emporium" id="sponsor">
+      <img src="media/companyLogos/CSO Architects.png" height="150" alt="CSO Architects" id="sponsor">
+      <img src="media/companyLogos/Holy Ground Automotive.png" height="150" alt="Holy Ground Automotive" id="sponsor">
+      <div style="text-align: center; font-size: 20px;">Holy Ground Automotive</div>
+    </sponsor>
+  </div>
 
-<script>
-  fetch('footer.html')
-   .then(response => response.text())
-   .then(data => {
-       document.getElementById('footer-placeholder').innerHTML = data;
-   })
-   .catch(error => console.error('Error loading footer:', error));
+  <div class="sponsor" style="background: linear-gradient(to right, #cd7f32, #e5a77e, #d2a483);">
+    <h3>Bronze Level</h3>
+    <sponsor>
+      <img src="media/companyLogos/BronzeSponsor1.png" height="150" alt="Bronze Sponsor 1" id="sponsor">
+      <img src="media/companyLogos/BronzeSponsor2.png" height="150" alt="Bronze Sponsor 2" id="sponsor">
+      <img src="media/companyLogos/BronzeSponsor3.png" height="150" alt="Bronze Sponsor 3" id="sponsor">
+    </sponsor>
+  </div>
 
-  fetch('header.html')
-   .then(response => response.text())
-   .then(data => {
-       document.getElementById('header-placeholder').innerHTML = data;
-   })
-   .catch(error => console.error('Error loading header:', error));
-   </script>
+  <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById('footer-placeholder').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading footer:', error));
+
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById('header-placeholder').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading header:', error));
+  </script>
 </body>
 </html>
