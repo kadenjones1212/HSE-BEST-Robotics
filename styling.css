@@ -213,7 +213,7 @@ h4::after {
     padding: 20px;
 }
 
-.sponsor img {
+#sponsor {
     display: block;
     margin: auto;
     padding: 20px;
