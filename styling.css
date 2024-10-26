@@ -165,7 +165,7 @@ h3 {
 }
 
 #contact {
-    display: block;
+    display: inline;
     font-size: 25pt;
     color: blue;
     text-decoration: none;
