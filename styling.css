@@ -76,6 +76,7 @@ header a{
     animation: 3s;
     padding: 0px 8px 0px 8px;
     display: flex;
+    align-content: center;
     justify-content: center;
     z-index: 3;
 }
