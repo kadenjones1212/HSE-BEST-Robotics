@@ -186,12 +186,12 @@ h4::after {
     background-color: black;
     box-shadow: 0px 0px 5px blue;
 }
-.sidebyside {
+.sidebyside10 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
 #role {
