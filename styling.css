@@ -71,6 +71,7 @@ header img{
      padding: 5px;
     margin-left: 0;
     justify-content: left;
+    z-index: 2;
 }
 
 header a {
