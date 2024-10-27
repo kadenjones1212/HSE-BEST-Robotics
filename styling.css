@@ -60,8 +60,11 @@ img {
 header {
     display: flex;
     width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: black;
     z-index: 2;
+    padding: none;
 }
 
 header a{
