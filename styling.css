@@ -202,6 +202,11 @@ h4::after {
     margin-right: 10%;
     
 }
+
+.center {
+    text-align: center;
+}
+
 #role {
     background-color: royalblue;
     color: white;
