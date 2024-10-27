@@ -58,10 +58,7 @@ img {
 
 
 header {
-    display: flex;
     width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
     background-color: black;
     align-items: center;
     justify-content: center;
@@ -69,6 +66,7 @@ header {
     z-index: 2;
 }
 header img{
+    display: flex;
     height: 45px;
      padding: 5px;
     margin-left: 0;
