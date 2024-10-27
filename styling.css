@@ -60,12 +60,8 @@ img {
 header {
     display: flex;
     width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
     background-color: black;
     z-index: 2;
-    padding: none;
-    float: center;
 }
 
 header a{
@@ -75,8 +71,8 @@ header a{
     font-size: 20px;
     animation: 3s;
     padding: 0px 8px 0px 8px;
-    display: flex;
     align-content: center;
+    text-align: center;
     z-index: 3;
 }
 header a:hover {
