@@ -3,10 +3,10 @@ let slideIndex = 0;
 
 function moveSlide(direction) {
   const slides = document.querySelectorAll('.slide');
-  const slideWidth = slides[0].clientWidth;
+  const slideWidth = slideshow.parentElement.clientWidth;
   slideIndex += direction;
-  
-  // Ensure slideIndex stays within bounds
+
+  // Loop back to the start/end when out of bounds
   if (slideIndex < 0) slideIndex = slides.length - 1;
   if (slideIndex >= slides.length) slideIndex = 0;
 

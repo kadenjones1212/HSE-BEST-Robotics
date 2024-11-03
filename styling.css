@@ -317,10 +317,8 @@ iframe {
 /*SLIDESHOW STUFF----------------------------------------------*/
 .slideshow-container {
     position: relative;
+    width: 300px; /* Set this to the width of one image */
     overflow: hidden;
-    width: 100%; /* Set this to match the width you want */
-    max-width: 800px; /* Set a max-width if desired */
-    margin: auto;
   }
   
   .slideshow {
@@ -329,28 +327,28 @@ iframe {
   }
   
   .slide {
-    min-width: 100%; /* Make each image take up full width of container */
-    height: auto;
+    min-width: 100%;
+    /* Adjust image to fit container, e.g., object-fit: cover; if needed */
   }
   
   .slide-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     cursor: pointer;
-    padding: 10px;
-    z-index: 10;
+    padding: 0.5rem;
   }
   
   .left-btn {
-    left: 10px;
+    left: 0;
   }
   
   .right-btn {
-    right: 10px;
+    right: 0;
   }
+  
   /*SLIDESHOW STUFF----------------------------------------------*/
