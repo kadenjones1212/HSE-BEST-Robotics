@@ -317,7 +317,7 @@ iframe {
 /*SLIDESHOW STUFF----------------------------------------------*/
   /* Slideshow container */
 .slideshow-container {
-    max-height: 500px;
+    height: 500px;
     position: relative;
     margin: auto;
   }
