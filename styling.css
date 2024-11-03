@@ -326,7 +326,7 @@ iframe {
     height: 400px;
 
   }
-  /* Hide the images by default */
+  /* Hide the images */
   .mySlides {
     display: none;
   }
