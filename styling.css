@@ -317,15 +317,15 @@ iframe {
 /*SLIDESHOW STUFF----------------------------------------------*/
   /* Slideshow container */
 .slideshow-container {
-    height: 500px;
     position: relative;
     margin: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    
   }
   .slideshow-container img{
 
-    height: 500px;
+    height: 400px;
+    padding-left: 10%;
+    padding-right: 10%;
 
   }
   /* Hide the images by default */
