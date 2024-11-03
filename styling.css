@@ -385,7 +385,6 @@ iframe {
   /* Number text (1/3 etc) */
   .numbertext {
     color: black;
-    background-color: rgba(255,255,255,0.75);
     border-radius: 2px;
     font-size: 20px;
     padding: 8px 12px;
