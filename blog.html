@@ -10,7 +10,7 @@
     <title>Blog and Updates</title>
 </head>
 <body>
-    <script src="script.js"></script>
+   
     <header>    
         <a id="header-placeholder"></a>
         <h1 style="background: rgba(0, 0, 0, .5) url('media/BackgroundImages/Blog Head Image.jpeg'); background-size: cover; background-position: center; height: calc(100vw / 10); color: white; display: flex; align-items: center; justify-content: center; margin: 0;">
@@ -168,20 +168,8 @@ for sponsorship and developed a sponsorship form and assigned students to reach 
 <!---------------------Make Blog Changes Above this comment------------------------->
     </div>
     <div id="footer-placeholder"></div>
-    <script>
-        fetch('footer.html')
-         .then(response => response.text())
-         .then(data => {
-             document.getElementById('footer-placeholder').innerHTML = data;
-         })
-         .catch(error => console.error('Error loading footer:', error));
-     
-        fetch('header.html')
-         .then(response => response.text())
-         .then(data => {
-             document.getElementById('header-placeholder').innerHTML = data;
-         })
-         .catch(error => console.error('Error loading header:', error));
+    <script src="script.js">
+       
          </script>
 </body>
 </html>
