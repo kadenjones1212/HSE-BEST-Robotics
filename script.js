@@ -1,13 +1,15 @@
-  fetch('footer.html')
-      .then(response => response.text())
-      .then(data => {
-          document.getElementById('footer-placeholder').innerHTML = data;
-      })
-      .catch(error => console.error('Error loading footer:', error));
+const slideshow = document.querySelector('.slideshow');
+let slideIndex = 0;
+
+function moveSlide(direction) {
+  const slides = document.querySelectorAll('.slide');
+  const slideWidth = slides[0].clientWidth;
+  slideIndex += direction;
   
-     fetch('header.html')
-      .then(response => response.text())
-      .then(data => {
-          document.getElementById('header-placeholder').innerHTML = data;
-      })
-      .catch(error => console.error('Error loading header:', error));
+  // Ensure slideIndex stays within bounds
+  if (slideIndex < 0) slideIndex = slides.length - 1;
+  if (slideIndex >= slides.length) slideIndex = 0;
+
+  // Move the slideshow to the selected slide
+  slideshow.style.transform = `translateX(${-slideWidth * slideIndex}px)`;
+}

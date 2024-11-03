@@ -314,3 +314,43 @@ iframe {
     display: block;
     margin: auto;
 }
+/*SLIDESHOW STUFF----------------------------------------------*/
+.slideshow-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Set this to match the width you want */
+    max-width: 800px; /* Set a max-width if desired */
+    margin: auto;
+  }
+  
+  .slideshow {
+    display: flex;
+    transition: transform 0.4s ease;
+  }
+  
+  .slide {
+    min-width: 100%; /* Make each image take up full width of container */
+    height: auto;
+  }
+  
+  .slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 10;
+  }
+  
+  .left-btn {
+    left: 10px;
+  }
+  
+  .right-btn {
+    right: 10px;
+  }
+  /*SLIDESHOW STUFF----------------------------------------------*/
