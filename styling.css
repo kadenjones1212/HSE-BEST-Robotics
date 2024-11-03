@@ -342,7 +342,7 @@ iframe {
     color: white;
     border: none;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 10px;
     z-index: 10;
   }
   
