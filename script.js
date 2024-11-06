@@ -1,46 +1,39 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+// Object to track the index of each slideshow
+let slideIndices = {};
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+// Initialize all slideshows
+document.querySelectorAll(".slideshow-container").forEach((container, index) => {
+    slideIndices[index] = 1; // Initialize each slideshow's index to 1
+    showSlides(index, 1); // Display the first slide for each slideshow
+
+    // Attach plusSlides function to the container’s buttons
+    container.querySelector(".prev").onclick = () => plusSlides(index, -1);
+    container.querySelector(".next").onclick = () => plusSlides(index, 1);
+});
+
+// Function to update slideshow based on current index and slide shift (n)
+function plusSlides(slideshowIndex, n) {
+    showSlides(slideshowIndex, (slideIndices[slideshowIndex] += n));
 }
 
-// Function to show the current slide
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  
-  // Update slideIndex based on bounds
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  
-  // Hide all slides
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  
-  // Show the current slide
-  slides[slideIndex - 1].style.display = "block";
-  
-  // Update the number text to reflect current slide
-  const numberText = slides[slideIndex - 1].getElementsByClassName("numbertext")[0];
-  numberText.textContent = slideIndex + " / " + slides.length;
+// Function to display the current slide for the specific slideshow
+function showSlides(slideshowIndex, n) {
+    const container = document.querySelectorAll(".slideshow-container")[slideshowIndex];
+    const slides = container.getElementsByClassName("mySlides");
+    
+    // Check bounds and update slide index
+    if (n > slides.length) slideIndices[slideshowIndex] = 1;
+    if (n < 1) slideIndices[slideshowIndex] = slides.length;
+
+    // Hide all slides within this container
+    Array.from(slides).forEach(slide => (slide.style.display = "none"));
+
+    // Display the current slide
+    slides[slideIndices[slideshowIndex] - 1].style.display = "block";
+
+    // Update the slide number text if it exists
+    const numberText = slides[slideIndices[slideshowIndex] - 1].querySelector(".numbertext");
+    if (numberText) {
+        numberText.textContent = `${slideIndices[slideshowIndex]} / ${slides.length}`;
+    }
 }
-
-// Initialize the first slide number display
-showSlides(slideIndex);
-////////////////////HEADER AND FOOTER JS///////////////////////////
-fetch('footer.html')
-.then(response => response.text())
-.then(data => {
-    document.getElementById('footer-placeholder').innerHTML = data;
-})
-.catch(error => console.error('Error loading footer:', error));
-
-fetch('header.html')
-.then(response => response.text())
-.then(data => {
-    document.getElementById('header-placeholder').innerHTML = data;
-})
-.catch(error => console.error('Error loading header:', error));
