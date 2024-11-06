@@ -379,6 +379,7 @@ iframe {
     position: absolute;
     bottom: 8px;
     width: 100%;
+    text-shadow: 2px 2px white;
     text-align: center;
   }
   
