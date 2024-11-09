@@ -81,11 +81,17 @@ header a {
     font-size: 20px;
     padding: 0px 8px;
     display: flex;
+<<<<<<< HEAD
+    text-align: center;
+    justify-content: right;
+    float: center;
+=======
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     z-index: 3;
+>>>>>>> fa7d38d5d3a733454b0cea4c25f2e016cd57cd9d
 }
 header a:hover {
     color: #0ff;
