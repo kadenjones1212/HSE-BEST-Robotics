@@ -293,23 +293,18 @@ margin-right: 10%;
     flex-wrap: wrap;
 }
 
-.footer {
+footer {
     display: block;
     width: 100%;
-    padding: 100vw/4;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: center;
     background: white;
     bottom: 0;
     justify-content: left;
-    display: flex;
 }
-.footer img,a{
+footer img,a{
     display: flex;
-    align-content: center;
     float: left;
-    align-self: center;
     margin-left: 15pt;
     margin-right: 15pt;
     height: 40px;
