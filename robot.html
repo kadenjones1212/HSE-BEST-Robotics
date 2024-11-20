@@ -2,42 +2,50 @@
 <html lang="en">
 <script src="script.js"></script>
 
-    <head>
-<link rel="stylesheet" href="styling.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="icon" type="image/x-icon" href="media/Roarr.png">
+<head>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="media/Roarr.png">
     <title>Meet the Robot</title>
 </head>
+
 <body>
-  <header>   
-    <a id="header-placeholder"></a>
-    <h1 style="background: rgba(0, 0, 0, .5) url('media/BackgroundImages/Moon.jpg'); background-size: cover; background-position: center; height: calc(100vw / 8); color: white; display: flex; align-items: center; justify-content: center; margin: 0;">    
-The Robot
-    </h1>
+    <header>
+        <a id="header-placeholder"></a>
+        <h1
+            style="background: rgba(0, 0, 0, .5) url('media/BackgroundImages/Moon.jpg'); background-size: cover; background-position: center; height: calc(100vw / 8); color: white; display: flex; align-items: center; justify-content: center; margin: 0;">
+            The Robot
+        </h1>
     </header>
     <h2>Overall Design</h2>
-    <iframe src="https://hsestudents232.autodesk360.com/shares/public/SH30dd5QT870c25f12fcc110b4e25f88a7c7?mode=embed" width="75%" height="500" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+    <iframe src="https://hsestudents232.autodesk360.com/shares/public/SH30dd5QT870c25f12fcc110b4e25f88a7c7?mode=embed"
+        width="75%" height="500" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
+        frameborder="0"></iframe>
+    <p>The new robot has been completely redone to accomodate needs and design flaws that were discovered in competition
+        at the Bowling Green Falcon BEST Competition.</p>
 
-   
-<h4></h4>
-<div id="footer-placeholder"></div>
-<script>
-  fetch('footer.html')
-   .then(response => response.text())
-   .then(data => {
-       document.getElementById('footer-placeholder').innerHTML = data;
-   })
-   .catch(error => console.error('Error loading footer:', error));
 
-  fetch('header.html')
-   .then(response => response.text())
-   .then(data => {
-       document.getElementById('header-placeholder').innerHTML = data;
-   })
-   .catch(error => console.error('Error loading header:', error));
-   </script>
+    <h4></h4>
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+    </script>
 </body>
 
 </html>
