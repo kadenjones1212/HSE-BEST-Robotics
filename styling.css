@@ -295,6 +295,28 @@ margin-right: 10%;
     flex-wrap: wrap;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: green;
+    bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer img, a{
+    display: flex;
+    float: left;
+    margin-left: 15pt;
+    margin-right: 15pt;
+    height: 40px;
+    padding: 2px;
+    border-radius: 3px;
+}
 
 iframe {
     display: block;
