@@ -300,6 +300,7 @@ footer {
 footer img {
     display: block;
     align-content: center;
+    float: left;
     align-self: center;
     margin-left: 15pt;
     margin-right: 15pt;
