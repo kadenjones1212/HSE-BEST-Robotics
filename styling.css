@@ -293,7 +293,7 @@ margin-right: 10%;
     flex-wrap: wrap;
 }
 
-footer {
+.footer {
     display: block;
     width: 100%;
     padding: 100vw/4;
@@ -305,7 +305,7 @@ footer {
     justify-content: left;
     display: flex;
 }
-footer img {
+.footer img {
     display: flex;
     align-content: center;
     float: left;
