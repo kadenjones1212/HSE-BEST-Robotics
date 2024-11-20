@@ -91,9 +91,10 @@ header a:hover {
     text-shadow: 0px 0px 16px cyan;
 }
 
-header a:active {
+header a:visited {
     color: blue;
 }
+
 
 header h1 {
     background-size: 100%;
