@@ -200,7 +200,12 @@ h4::after {
     margin-right: 10%;
     
 }
-
+sidebyside {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
 
 .center {
     text-align: center;
