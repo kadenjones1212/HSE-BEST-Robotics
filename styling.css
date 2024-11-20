@@ -297,14 +297,15 @@ margin-right: 10%;
 
 .footer {
     display: flex;
-    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
     padding-top: 5px;
     padding-bottom: 5px;
-    background: white;
+    background: grey;
     bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    justify-content: left;
 }
 
 .footer img,a{
