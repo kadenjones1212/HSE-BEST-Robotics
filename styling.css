@@ -292,7 +292,7 @@ margin-right: 10%;
     display: flex;
     flex-wrap: wrap;
 }
-
+/*
 footer {
     display: flex;
     width: 100%;
@@ -302,7 +302,7 @@ footer {
     bottom: 0;
     justify-content: left;
 }
-/*
+
 footer img,a{
     display: flex;
     float: left;
