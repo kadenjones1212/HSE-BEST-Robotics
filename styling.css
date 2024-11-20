@@ -292,7 +292,7 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    background: black;
+    background-color: white;
     bottom: 0;
     justify-content: left;
     display: flex;
