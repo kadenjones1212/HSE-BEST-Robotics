@@ -201,12 +201,14 @@ h4::after {
     margin-right: 10%;
     
 }
+/*
 sidebyside {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     
 }
+    */
 
 .center {
     text-align: center;
@@ -292,18 +294,20 @@ margin-right: 10%;
     display: flex;
     flex-wrap: wrap;
 }
-/*
-footer {
+
+.footer {
     display: flex;
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     background: white;
     bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     justify-content: left;
 }
 
-footer img,a{
+.footer img,a{
     display: flex;
     float: left;
     margin-left: 15pt;
@@ -312,7 +316,7 @@ footer img,a{
     padding: 2px;
     border-radius: 3px;
 }
-*/
+
 iframe {
     display: block;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
