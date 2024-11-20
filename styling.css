@@ -305,7 +305,7 @@ margin-right: 10%;
     justify-content: left;
     display: flex;
 }
-.footer img {
+.footer img,a{
     display: flex;
     align-content: center;
     float: left;
