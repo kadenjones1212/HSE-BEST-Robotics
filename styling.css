@@ -302,13 +302,13 @@ margin-right: 10%;
     float: left;
     padding-top: 5px;
     padding-bottom: 5px;
-    background: grey;
+    background: green;
     bottom: 0;
     margin-left: 0;
     margin-right: 0;
 }
 
-.footer img,a{
+.footer img, a{
     display: flex;
     float: left;
     margin-left: 15pt;
