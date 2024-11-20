@@ -297,18 +297,15 @@ margin-right: 10%;
 
 footer {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    float: left;
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: green;
+    background: white;
     bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    justify-content: left;
 }
 
-footer img, a{
+footer img,a{
     display: flex;
     float: left;
     margin-left: 15pt;
