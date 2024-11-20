@@ -295,18 +295,19 @@ margin-right: 10%;
 }
 
 footer {
+    display: block;
     width: 100%;
     padding: 100vw/4;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    background-color: white;
+    background: white;
     bottom: 0;
     justify-content: left;
     display: flex;
 }
 footer img {
-    display: block;
+    display: flex;
     align-content: center;
     float: left;
     align-self: center;
