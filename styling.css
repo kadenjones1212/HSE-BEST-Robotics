@@ -294,7 +294,7 @@ margin-right: 10%;
 }
 
 footer {
-    display: block;
+    display: flex;
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
