@@ -311,6 +311,8 @@ footer img {
 iframe {
     display: block;
     margin: auto;
+    border-radius: 3px;
+    
 }
 /*SLIDESHOW STUFF----------------------------------------------*/
   /* Slideshow container */
