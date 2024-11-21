@@ -296,7 +296,7 @@ margin-right: 10%;
     flex-wrap: wrap;
 }
 
-footer {
+.footer {
     display: flex;
     width: 100%;
     padding-top: 5px;
@@ -306,7 +306,7 @@ footer {
     justify-content: left;
 }
 
-footer a{
+.footer a{
     display: flex;
     float: left;
     margin-left: 15pt;
