@@ -327,7 +327,7 @@ footer {
     padding-bottom: 5px;
     background: black;
     bottom: 0;
-    justify-content: left;
+    justify-content: space-evenly;
 }
 
 footer a,
