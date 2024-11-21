@@ -309,8 +309,8 @@ footer {
 footer a, footer img{
     display: flex;
     float: left;
-    margin-left: 15pt;
-    margin-right: 15pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
     height: 40px;
     padding: 2px;
     border-radius: 3px;
