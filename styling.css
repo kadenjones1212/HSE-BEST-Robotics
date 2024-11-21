@@ -234,11 +234,10 @@ sidebyside {
     padding: 20px;
 }
 .sponsor{
-
 display: flex;
-flex-direction: column
+flex-direction: column;
 }
-.sponsor img {
+sponsor {
     display: block;
     margin: auto;
     padding: 20px;
