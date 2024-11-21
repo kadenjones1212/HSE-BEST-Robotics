@@ -300,8 +300,8 @@ footer {
     bottom: 0;
     justify-content: left;
 }
-
-footer img,a{
+/*
+footer{
     display: flex;
     float: left;
     margin-left: 15pt;
@@ -310,6 +310,7 @@ footer img,a{
     padding: 2px;
     border-radius: 3px;
 }
+    */
 
 iframe {
     display: block;
