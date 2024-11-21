@@ -233,7 +233,11 @@ sidebyside {
     flex: 70%;
     padding: 20px;
 }
+.sponsor{
 
+display: flex;
+flex-direction: column
+}
 .sponsor img {
     display: block;
     margin: auto;
