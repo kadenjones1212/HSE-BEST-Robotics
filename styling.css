@@ -333,7 +333,7 @@ footer {
 footer a,
 footer img {
     display: flex;
-    float: right;
+    /*float: right;*/
     margin-left: 5pt;
     margin-right: 5pt;
     height: 40px;
