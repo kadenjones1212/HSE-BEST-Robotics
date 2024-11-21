@@ -327,14 +327,12 @@ footer {
     padding-bottom: 5px;
     background: black;
     bottom: 0;
-    
-    
+    justify-items: right;
 }
 
 footer a,
 footer img {
     display: flex;
-    justify-self: right;
     margin-left: 5pt;
     margin-right: 5pt;
     height: 40px;
