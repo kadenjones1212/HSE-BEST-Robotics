@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <head>
     <link rel="stylesheet" href="styling.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="media/ROARR_Thumbnail.png">
-  <title>Support</title>
-</head>
+    <title>Support</title>
+  </head>
+
 <body>
-  <header>   
+  <header>
     <a id="header-placeholder"></a>
-    <h1 style="background: rgba(0, 0, 0, .5) url('media/BackgroundImages/Moonbase.jpg'); background-size: cover; background-position: center; height: calc(100vw / 8); color: white; display: flex; align-items: center; justify-content: center; margin: 0;">  
+    <h1
+      style="background: rgba(0, 0, 0, .5) url('media/BackgroundImages/Moonbase.jpg'); background-size: cover; background-position: center; height: calc(100vw / 8); color: white; display: flex; align-items: center; justify-content: center; margin: 0;">
       Support The Team
     </h1>
   </header>
-<h2>Reach Out</h2>
-<p>Want to help the team? Talk to us!</p>
-<div class="sidebyside10">
- 
-     <a href="mailto: hsebestrobotics@gmail.com" id="contact"><img src="media/EmailLogo.png" style="height: 100px;"><br><p style="justify-content: center;">Email</p></a>
-    
-     <a href="https://www.instagram.com/hsebestrobotics2024" id="contact"><img src="media/InstagramLogo.webp" style="height: 100px;"><br><p style="justify-content: center;">Instagram</p></a>
-     
-      <a href="https://maps.app.goo.gl/f6q6ZQLnr3RyMd7fA" id="contact"><img src="media/AddressLogo.webp"  style="height: 100px;"><br><p style="justify-content: center;">Address</p></a>
-  
-      </div>
-<h2>Sponsors</h2>
-    <p>A big thanks to all of the following companies that donated to support the HSE BEST Robotics team!</p>
- 
-  
+  <h2>Reach Out</h2>
+  <p>Want to help the team? Talk to us!</p>
+  <div class="sidebyside10">
+
+    <a href="mailto: hsebestrobotics@gmail.com" id="contact"><img src="media/EmailLogo.png" style="height: 100px;"><br>
+      <p style="justify-content: center;">Email</p>
+    </a>
+
+    <a href="https://www.instagram.com/hsebestrobotics2024" id="contact"><img src="media/InstagramLogo.webp"
+        style="height: 100px;"><br>
+      <p style="justify-content: center;">Instagram</p>
+    </a>
+
+    <a href="https://maps.app.goo.gl/f6q6ZQLnr3RyMd7fA" id="contact"><img src="media/AddressLogo.webp"
+        style="height: 100px;"><br>
+      <p style="justify-content: center;">Address</p>
+    </a>
+
+  </div>
+  <h2>Sponsors</h2>
+  <p>A big thanks to all of the following companies that donated to support the HSE BEST Robotics team!</p>
+
+
   <div class="sponsor" style="background: linear-gradient(to right, #cfcdff, #dce8ff, #a0b0ff);">
     <h3>Platinum Level</h3>
     <sponsor>
@@ -40,7 +54,7 @@
       <img src="media/companyLogos/DimondLogoAbreviatedColor.png" alt="Dimond" id="sponsor">
     </sponsor>
   </div>
-  
+
   <div class="sponsor" style="background: linear-gradient(to right, #ffda73, #ffeb8c, #d4af37);">
     <h3>Gold Level</h3>
     <sponsor>
@@ -50,8 +64,8 @@
       <img src="media/companyLogos/OrthoIndy.svg" id="sponsor">
     </sponsor>
   </div>
-  
-  <div class="sponsor"style="background: linear-gradient(to right, #c0c0c0, #d3d3d3, #a9a9a9);">
+
+  <div class="sponsor" style="background: linear-gradient(to right, #c0c0c0, #d3d3d3, #a9a9a9);">
     <h3>Silver Level</h3>
     <sponsor>
       <img src="media/companyLogos/Engel and Volkers.png" alt="Engel and Volkers" id="sponsor">
@@ -71,20 +85,22 @@
       <img src="media/companyLogos/TalkToTucker.png" id="sponsor">
     </sponsor>
   </div>
+  <div id="footer-placeholder"></div>
   <script>
     fetch('footer.html')
       .then(response => response.text())
       .then(data => {
-          document.getElementById('footer-placeholder').innerHTML = data;
+        document.getElementById('footer-placeholder').innerHTML = data;
       })
       .catch(error => console.error('Error loading footer:', error));
 
     fetch('header.html')
       .then(response => response.text())
       .then(data => {
-          document.getElementById('header-placeholder').innerHTML = data;
+        document.getElementById('header-placeholder').innerHTML = data;
       })
       .catch(error => console.error('Error loading header:', error));
   </script>
 </body>
+
 </html>
