@@ -63,6 +63,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0;
+    
     z-index: 2;
 }
 header img{
@@ -82,8 +83,9 @@ header a {
     padding: 0px 8px;
     display: flex;
     text-align: center;
-    justify-content: right;
-    float: center;
+    justify-content: center;
+    align-self: center;
+    
 }
 header a:hover {
     color: #0ff;
@@ -125,10 +127,12 @@ header h1:hover {
 
 .dropdown {
     position: relative;
+    align-self: center;
 }
 
 .dropbtn {
     background-color: black;
+    
 }
 
 .dropdown-content {
@@ -142,7 +146,8 @@ header h1:hover {
 
 .dropdown-content a {
     padding: 10px;
-    text-align: center;
+
+    align-self: center;
 }
 
 .dropdown:hover .dropdown-content {
